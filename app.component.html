@@ -1,0 +1,6 @@
+<h1 [class]="isactive ? 'active' :'inactive'">This is class binding</h1>
+<h2 [class]="{c1:applyC1,active:isactive}">This is for multiple</h2>
+<h3 [style]="{color:cvar}">This is style binding</h3>
+<h4 [style.color]="cvar">This is also style bind</h4>
+<h4 [style]="mystyle">This is also a style</h4>
+<h4 [style.color]="haserror ? 'red' :'green'">This is also styleee</h4>
